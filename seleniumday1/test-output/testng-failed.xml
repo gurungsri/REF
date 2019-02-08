@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="TestIE(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="testDemoWebShopLogin" invocation-numbers="0 1 2"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop2 -->
+    </classes>
+  </test> <!-- TestIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
