@@ -1,23 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32195" started-at="2019-02-08T10:02:25Z" finished-at="2019-02-08T10:02:57Z">
+  <suite name="Suite" duration-ms="77912" started-at="2019-02-11T05:23:31Z" finished-at="2019-02-11T05:24:49Z">
     <groups>
       <group name="actions1">
-        <method signature="TestAjax1.testAjax1()[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestAjax1@61832929]" name="testAjax1" class="seleniumadvanced.demos.seleniumday1.TestAjax1"/>
+        <method signature="TestAjax1.testAjax1()[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestAjax1@692f203f]" name="testAjax1" class="seleniumadvanced.demos.seleniumday1.TestAjax1"/>
       </group> <!-- actions1 -->
       <group name="actions2">
-        <method signature="TestAjax1.testAjax1()[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestAjax1@61832929]" name="testAjax1" class="seleniumadvanced.demos.seleniumday1.TestAjax1"/>
+        <method signature="TestAjax1.testAjax1()[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestAjax1@692f203f]" name="testAjax1" class="seleniumadvanced.demos.seleniumday1.TestAjax1"/>
       </group> <!-- actions2 -->
     </groups>
-    <test name="Testchrome" duration-ms="32195" started-at="2019-02-08T10:02:25Z" finished-at="2019-02-08T10:02:57Z">
+    <test name="Testchrome" duration-ms="24367" started-at="2019-02-11T05:23:31Z" finished-at="2019-02-11T05:23:55Z">
+      <class name="seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@1a482e36]" name="beforeTest" is-config="true" duration-ms="12883" started-at="2019-02-11T05:23:31Z" finished-at="2019-02-11T05:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af46df3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testDemoWebShopLogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@1a482e36]" name="testDemoWebShopLogin" duration-ms="3697" started-at="2019-02-11T05:23:45Z" data-provider="dp1" finished-at="2019-02-11T05:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramk1298umar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Acer1234$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoWebShopLogin -->
+        <test-method status="PASS" signature="testDemoWebShopLogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@1a482e36]" name="testDemoWebShopLogin" duration-ms="3092" started-at="2019-02-11T05:23:49Z" data-provider="dp1" finished-at="2019-02-11T05:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rani1980@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Acer1234$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoWebShopLogin -->
+        <test-method status="PASS" signature="testDemoWebShopLogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@1a482e36]" name="testDemoWebShopLogin" duration-ms="3193" started-at="2019-02-11T05:23:52Z" data-provider="dp1" finished-at="2019-02-11T05:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chenu.shyam@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoWebShopLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@1a482e36]" name="afterTest" is-config="true" duration-ms="353" started-at="2019-02-11T05:23:55Z" finished-at="2019-02-11T05:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4af46df3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3 -->
+    </test> <!-- Testchrome -->
+    <test name="Test@IE" duration-ms="32094" started-at="2019-02-11T05:23:55Z" finished-at="2019-02-11T05:24:28Z">
+      <class name="seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, org.testng.ITestContext)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@6f1de4c7]" name="beforeTest" is-config="true" duration-ms="9038" started-at="2019-02-11T05:23:55Z" finished-at="2019-02-11T05:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4158debd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testDemoWebShopLogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@6f1de4c7]" name="testDemoWebShopLogin" duration-ms="8024" started-at="2019-02-11T05:24:05Z" data-provider="dp1" finished-at="2019-02-11T05:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramk1298umar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Acer1234$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoWebShopLogin -->
+        <test-method status="PASS" signature="testDemoWebShopLogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@6f1de4c7]" name="testDemoWebShopLogin" duration-ms="7508" started-at="2019-02-11T05:24:13Z" data-provider="dp1" finished-at="2019-02-11T05:24:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rani1980@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Acer1234$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoWebShopLogin -->
+        <test-method status="PASS" signature="testDemoWebShopLogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@6f1de4c7]" name="testDemoWebShopLogin" duration-ms="7448" started-at="2019-02-11T05:24:20Z" data-provider="dp1" finished-at="2019-02-11T05:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chenu.shyam@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemoWebShopLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3@6f1de4c7]" name="afterTest" is-config="true" duration-ms="23" started-at="2019-02-11T05:24:28Z" finished-at="2019-02-11T05:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4158debd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumadvanced.demos.seleniumday1.TestLoginDemoWebShop3 -->
+    </test> <!-- Test@IE -->
+    <test name="TestAJAX1" duration-ms="21404" started-at="2019-02-11T05:24:28Z" finished-at="2019-02-11T05:24:49Z">
       <class name="seleniumadvanced.demos.seleniumday1.TestAjax1">
-        <test-method status="PASS" signature="testAjax1()[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestAjax1@61832929]" name="testAjax1" duration-ms="32149" started-at="2019-02-08T10:02:25Z" finished-at="2019-02-08T10:02:57Z">
+        <test-method status="PASS" signature="testAjax1()[pri:0, instance:seleniumadvanced.demos.seleniumday1.TestAjax1@692f203f]" name="testAjax1" duration-ms="21400" started-at="2019-02-11T05:24:28Z" finished-at="2019-02-11T05:24:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAjax1 -->
       </class> <!-- seleniumadvanced.demos.seleniumday1.TestAjax1 -->
-    </test> <!-- Testchrome -->
+    </test> <!-- TestAJAX1 -->
   </suite> <!-- Suite -->
 </testng-results>
